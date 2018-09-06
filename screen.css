@@ -1,0 +1,285 @@
+/*screen.css*/
+
+/* CIT 151 - Intro to HTML & CSS
+ * Leanna Chisholm
+ * Project 2
+ * Nov 25, 2017
+ */
+
+
+@import url('https://fonts.googleapis.com/css?family=Amethysta|Fredericka+the+Great');
+/* =a aside 
+------------------------------*/
+    aside{
+        float:right;
+        Font-Family:'Amethysta',Arial;
+        position:relative;
+        display:block;
+        margin: auto 1em 1em auto;
+    }
+    
+    #L_container{
+   
+    float:left;
+    display:block;
+    width:60%;
+    }
+    #c2{
+        width:90%;
+        min-height:90%;
+        float:left;
+        display:block;
+        overflow:scroll;
+    }
+
+/* =b background
+------------------------------*/
+    html {
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    
+    background-image: url(images/rocks.jpg);
+    background-size: 100% 100%;
+    background-position:left center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    }
+
+/* =c classes 
+------------------------------*/
+   
+
+/* =d divs 
+------------------------------*/
+    .container p{
+        font-weight: 600; 
+        color: black; 
+        font-size:1em;
+    } 
+    .container{
+    display:block;
+    position:fixed;
+    background-color: rgba(171,115,70,.45);
+    margin: 5% 15% 3% 5%;
+    min-height: 80%;
+    max-height: 80%;
+    border: 3px solid rgba(1,9,42,.9);
+    overflow:scroll;
+    }
+    #c2, #L_container, .sub{
+    margin:1.3em 1em 1.3em 1em;
+    max-height:80%;
+    background-color:rgb(171,115,70);
+    position:absolute;
+    padding:2em;
+    display:block;
+    overflow:auto;
+    }
+     
+    #c2,#L_Container,main{
+        height:94%;
+        padding:4px;
+        width:50%;
+        overflow:auto; 
+    }
+    .sub{
+        height:90%;
+        text-align: center;
+        width:  90%;
+         
+    }
+  
+     #ref{
+     background-color: rgba(1,9,42,.65);
+     }
+     #ref_{
+        min-width:70%;
+        overflow:auto;
+     }
+     
+    body{
+     Font-Family:'Scheherazade';
+     font-size: 1em;
+    text-align: center;
+    min-width:  100%;
+    max-width:  100%;
+    min-height: 100%;
+    max-height: 100%;
+    }
+    
+    
+    .container,header,footer{
+    min-width:  93.999%;
+    max-width:  93.999%;
+ 
+    text-align: center;
+    }
+    #ind_{
+        width:50%;
+        overflow:auto;
+    }
+/* =fig figure
+------------------------------*/
+    figure img{
+        height:50%;
+        width:50%;
+    }
+    figcaption{
+        font-size:1em;
+        font-weight:600;
+        color: white;
+    }
+    #palette{
+        height: 100%;
+        width: 100%
+    }
+    #icon{
+        height:55px;
+        width:55px;
+    }
+/* =f footer & header
+------------------------------*/
+    
+    footer{
+        bottom: 0;
+        margin: 8% 5% 0 5%; 
+        position: fixed;
+    }
+    header{
+        top:0;
+        margin: 0 5% 8% 5%; 
+        position:fixed;
+    }
+    header,footer{
+        
+        display:block;
+        color: white;
+        font-size: 1.2em; 
+        font-weight:300;
+        clear:left;
+        clear:right;
+        background-color: rgba(1,9,42,.45);
+        border: 3px solid rgba(102,99,13,.8);
+        border-radius: 3px;
+    }
+    h1,h2,h3,h4,h5,h6,header,heading{
+      Font-Family:'Fredericka the Great';
+    
+    }
+ 
+/* =frm forms
+------------------------------*/
+    form{
+        font-weight:600;
+        color:white;
+        border: 2px double white;
+        width:40%;
+        height:60%;
+        margin-top:3%;
+        display:block;
+        float:right;
+    }
+    
+     
+    legend{
+    font-family:'Amethysta', Verdana;
+    color:white;
+    } 
+    form p{color:white;}  
+
+/* =h headings (h1, h2, etc.)
+------------------------------*/
+
+
+/* =i images 
+------------------------------*/
+
+
+/* =lk (hyper)links 
+------------------------------*/
+    /* unvisited link */
+    a:link {
+         text-decoration:none;
+         color:  rgba(220,248,255,.7);
+    }
+
+    /* visited link */
+    a:visited {
+         color:  rgba(220,248,255,.7); 
+         text-decoration:underline;
+    }
+
+    /* mouse over link */
+    a:hover {
+         color: rgba(1,9,42,.9);
+         padding: 1.5px;
+         background-color: rgba(220,248,255,.7);
+         border: 2px solid rgba(1,9,42,.9);
+    
+    }
+
+    /* selected link */
+    a:active {
+        
+    } 
+
+/* =l lists 
+------------------------------*/
+    ul li{
+    list-style-image: url(images/tent.png);
+    }
+     
+    ul li, ol li{
+
+        text-align: left;
+        list-style-position: inside;
+        text-indent: -1em;
+        padding-left: 1em;
+        font-weight: 600;
+        color:white;
+        margin-bottom:5px;
+    }
+
+/* =m main
+------------------------------*/
+
+
+/* =n nav 
+------------------------------*/
+.uk{
+    float:right;
+    font-weight: 600;
+    position:relative;
+    display:block;
+    width:35%;
+    word-spacing: .15em;
+    padding:4px;
+    font-size: 1em;
+    color:rgba(220,248,255,.9); 
+    background-color:  rgba(1,9,42,.60);
+    border: 3px solid  rgba(1,9,42,.9);
+}
+
+/* =p paragraphs 
+------------------------------*/
+
+
+/* =t tables
+------------------------------*/
+    dt{
+        font-family:'Amethysta', Verdana;
+        font-size: 2em;
+        color:white;
+        text-align:left;
+    }
+    dd{
+        color:white;
+        text-align:left;
+    }
+
+/* =txt text 
+------------------------------*/
+

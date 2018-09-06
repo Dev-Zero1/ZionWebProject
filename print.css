@@ -1,0 +1,62 @@
+/*print.css*/
+
+/* CIT 151 - Intro to HTML & CSS
+ * Leanna Chisholm
+ * Project 2
+ * Nov 25, 2017
+ */
+ 
+     @page{ 
+        size: 8.5in 11in;
+        margin: 0.5in;
+     }
+
+
+/* =h headings (h1, h2, etc.)
+------------------------------*/
+    html{
+    
+        background-color: white; 
+        background-image: none; 
+        font-size: .75em;
+        list-style-type:square; 
+        font-family: “Times New Roman”, Times, serif; 
+        overflow:visible;
+        float:none;
+        height:auto;
+        position:static;
+        margin: 0 5%;
+        border:0;
+    }
+    .container, #c2, #L_container,main{
+    overflow:visible;
+    height:auto;
+    border:0;
+    float:none;
+    }
+    nav,header{
+        visibility:hidden;
+    }
+/* =i images 
+------------------------------*/
+
+
+/* =lk (hyper)links 
+------------------------------*/
+a:link{
+    font-weight:bold;
+    color: slategrey;
+    text-decoration:none;
+}
+a:visited{
+
+}
+a:hover{
+
+}
+a:active{
+
+}
+ 
+
+
